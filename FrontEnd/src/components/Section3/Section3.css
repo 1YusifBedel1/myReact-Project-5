@@ -1,0 +1,13 @@
+.bg-intro {
+    background-image: url("https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .section-heading{
+      text-align: center;
+      color: white;
+      h2{
+          color: white !important;
+      }
+  }

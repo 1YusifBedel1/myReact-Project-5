@@ -1,0 +1,42 @@
+.section1{
+    width: 100%;
+    padding: 100px 0px;
+}
+.section1 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sect1Left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.salam{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.sect1Left h2{
+    font-size: 50px;
+}
+.sect1Left p{
+    color: gray;
+    font-size: 15px;
+}
+.sect1Left a{
+padding: 5px;
+background: gray;
+color: black;
+font-size: 12px;
+font-weight: 200;
+}
+.sect1Right{
+    border-radius: 30px;
+    overflow: hidden;
+    width: 50%;
+}

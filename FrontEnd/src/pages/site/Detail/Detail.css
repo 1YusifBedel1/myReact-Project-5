@@ -1,0 +1,24 @@
+.detail-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 100px 50px; 
+}
+.detail-container img{
+    width: 50%;
+    border-radius: 30px;
+}
+.detailText{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.detailText h2{
+    font-size: 70px;
+}
+.detailText span{
+    font-size: 40px;
+}
