@@ -15,7 +15,7 @@ const ProductSchema= new mongoose.Schema({
         type : String
     },
     price:{
-        type : String
+        type : Number
     }
 })
 const products = mongoose.model("Product",ProductSchema)

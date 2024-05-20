@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './Card.css'
 const Card = ({ item }) => {
-    console.log(item)
   return (
     <div style={{height:"200px"}} className="s2Card">
       <div className="s2CardImage">
